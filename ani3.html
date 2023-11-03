@@ -1,0 +1,51 @@
+<!doctype >
+<html>
+<head><title>Animation</title> 
+
+</head>
+<style>
+@keyframes blink
+{
+from{opacity:1}
+to{opacity:0}
+}
+
+@keyframes move
+{
+from{left:-200px}
+to{left:100%}
+}
+
+
+#text1
+{
+font-family:arial black;
+font-size:30px;
+color:red;
+opacity:1;
+animation:blink 1.50s infinite alternate  linear;
+}
+#text2
+{
+position:relative;
+left:-100px;
+font-family:arial black;
+font-size:30px;
+color:green;
+opacity:1;
+animation: move 13.50s infinite alternate  linear;
+}
+
+</style>
+
+<body>
+<h1>Web Animation </h1>
+<div id="text1">TATA HEXA </div>
+<div id="text2">WELCOME </div>
+
+
+
+
+</body>
+
+</html>
